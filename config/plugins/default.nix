@@ -18,6 +18,7 @@
     ./utils/autopairs.nix
     ./utils/treesitter.nix
     ./utils/indent-blankline.nix
+    ./utils/markdown-preview.nix
 
     # Lsp
     ./lsp/conform.nix

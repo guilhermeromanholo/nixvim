@@ -61,7 +61,7 @@
           }
           {
             __unkeyed = "lsp_status";
-            icon = "";
+	    # icon = "";
             symbols = {done = "";};
           }
         ];
