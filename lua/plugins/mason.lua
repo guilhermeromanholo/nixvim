@@ -13,11 +13,13 @@ return {
           "clangd",
           "lua-language-server",
           "ty",
+          "nil",
           -- Formaters
           "stylua",
           "shfmt",
           "black",
           "isort",
+          "alejandra",
           "clang-format",
         },
       }

@@ -22,6 +22,7 @@ return {
       python = { "isort", "black" },
       sh = { "shfmt" },
       bash = { "shfmt" },
+      nix = { "alejandra" },
     },
 
     default_format_opts = {
