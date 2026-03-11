@@ -13,7 +13,7 @@
       html = {
 	enable = true;
 	config.filetypes = ["html" "php"];
-      }
+      };
     };
   };
 }
