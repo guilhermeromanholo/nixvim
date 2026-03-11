@@ -3,6 +3,9 @@
     enable = true;
 
     settings.formatters_by_ft = {
+      php = ["prettier"];
+      css = ["prettier"];
+      html = ["prettier"];
       nix = ["alejandra"];
       python = ["isort" "black"];
     };
@@ -15,5 +18,8 @@
     # Python
     isort
     black
+
+    # HTML, CSS, PHP
+    prettier
   ];
 }
