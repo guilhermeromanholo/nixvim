@@ -6,10 +6,14 @@
 
     servers = {
       nixd.enable = true;
-      html.enable = true;
       cssls.enable = true;
       pyright.enable = true;
       phpactor.enable = true;
+
+      html = {
+	enable = true;
+	config.filetypes = ["html" "php"];
+      }
     };
   };
 }
